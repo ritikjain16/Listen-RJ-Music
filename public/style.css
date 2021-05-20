@@ -1,0 +1,191 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+#myInput {
+    width: 200px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:5px;
+    margin: 5px;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+
+}
+
+/* -------------------------------- */
+.container {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.title {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-shadow:4px 3px 4px #000000;
+    
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.container img:hover {
+    width: 190px;
+    height: 190px;
+}
+
+.container h1 {
+    display: none;
+}
+
+.container h3,h4 {
+    text-align: center;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:500px) {
+    .container {
+        width: 150px;
+        height: 200px;
+        padding: 3px;
+        margin: 7px;
+    }
+
+    .container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container img:hover {
+        width: 130px;
+        height: 130px;
+    }
+
+    .container h3,h4 {
+        text-align: center;
+        font-size: 12px;
+    }
+    .title{
+        font-size:20px;
+    }
+
+    .myFooter{
+        padding: 2px;
+    }
+
+}
+/* ------------------------------------- */
+.myFooter{
+    background-color: #000000;
+    color: white;
+    padding: 4px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myFooter h3,h4{
+    margin: 3px;
+    font-size: 13px;
+}
+
+.myFooter a{
+    text-decoration: none;
+    color:white;
+}
+
+@keyframes bodyanimation{
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: black;
+    }
+}
+
+@keyframes bodyanimation1{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: white;
+    }
+}
+
+@keyframes ButtonAnimation{
+    0%{
+        right:25px;
+    }
+    10%{
+        right:10px;
+    }
+    20%{
+        right:25px;
+    }
+    30%{
+        right: 10px;
+    }
+    40%{
+        right:25px;
+    }
+    50%{
+        right: 10px;
+    }
+    60%{
+        right:25px;
+    }
+    100%{
+        right: 10px;
+    }
+}
+
+

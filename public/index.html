@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <title>RJ Music</title>
+
+    <link rel="icon" href="/rjlogo.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script data-ad-client="ca-pub-4775298232306039" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <style>
+        .btn {
+            background-color: #000000;
+            color: white;
+            padding: 8px;
+            border-style: none;
+            border-radius: 4px;
+            transition-property: all;
+            transition-duration: 0.5s;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: black;
+            font-weight: bold;
+
+        }
+
+        #light,
+        #dark {
+            position: fixed;
+            right: 15px;
+        }
+
+
+        .dow {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            border: 2px solid blue;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body id="myBody">
+
+    <h1 class="title" id="title">Listen your favourite music/RJ Music  ...</h1>
+    <div class="inp">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search ...">
+    </div>
+    <button type="button" class="btn" id="light" onclick="light()">Light Mode</button>
+    <button type="button" class="btn" id="dark" onclick="dark()">Dark Mode</button>
+
+    <ul id="myUL">
+
+
+
+        <div class="container">
+            <h1>Oye Hoye Hoye</h1>
+            <a href="/music/Oye Hoye Hoye_320(RJ Music).mp3" target="_blank">
+                <img src="https://cover.djpunjab.org/49891/300x700/Oye-Hoye-Hoye-Jassie-Gill.jpg" id="myAudio"
+                    alt="Oye Hoye Hoye">
+            </a>
+            <h3>Oye Hoye Hoye</h3>
+            <a href="/music/Oye Hoye Hoye_320(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Tera Suit</h1>
+            <a href="/music/Tera Suit(RJ Music).mp3" target="_blank">
+                <img src="https://a10.gaanacdn.com/images/albums/30/3966230/crop_175x175_3966230.jpg" id="myAudio" alt="Tera Suit">
+            </a>
+            <h3>Tera Suit</h3>
+            <a href="/music/Tera Suit(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+        
+        <div class="container">
+            <h1>Baarish Ki Jaaye</h1>
+            <a href="/music/B Praak - Baarish Ki Jaaye(RJ Music).mp3" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUER76dmB6hFf1K_ofUCr_I2dKlUNG7LeI_w&usqp=CAU" id="myAudio" alt="Baarish Ki Jaaye">
+            </a>
+            <h3>Baarish Ki Jaaye</h3>
+            <a href="/music/B Praak - Baarish Ki Jaaye(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Lut Gaye</h1>
+            <a href="/music/Lut Gaye(RJ Music).mp3" target="_blank">
+                <img src="http://a10.gaanacdn.com/images/albums/53/3890653/crop_480x480_3890653.jpg" id="myAudio" alt="Lut Gaye">
+            </a>
+            <h3>Lut Gaye</h3>
+            <a href="/music/Lut Gaye(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Kismat Teri</h1>
+            <a href="/music/Inder Chahal - Kismat Teri(RJ Music).mp3" target="_blank">
+                <img src="https://covers.djpunjab.pro/image/496787/Kismat-Teri.jpg" id="myAudio" alt="Kismat Teri">
+            </a>
+            <h3>Kismat Teri</h3>
+            <a href="/music/Inder Chahal - Kismat Teri(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Dhvani Bhanushali - Radha</h1>
+            <a href="/music" target="_blank">
+                <img src="http://a10.gaanacdn.com/images/albums/46/4013546/crop_480x480_1616390446_4013546.jpg" id="myAudio" alt="Dhvani Bhanushali - Radha">
+            </a>
+            <h3>Dhvani Bhanushali - Radha</h3>
+            <a href="/music" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Patli Kamariya</h1>
+            <a href="/music/Patli Kamariya(RJ Music).mp3" target="_blank">
+                <img src="https://pagalworldsongs.me/images/patli-kamariya-73485.jpg" id="myAudio" alt="Patli Kamariya">
+            </a>
+            <h3>Patli Kamariya</h3>
+            <a href="/music/Patli Kamariya(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Temporary Pyar</h1>
+            <a href="/music/Temporary Pyar(RJ Music).mp3" target="_blank">
+                <img src="https://www.mp3download.pk/wp-content/uploads/2020/12/Temporary-Pyar-Kaka-MP3-Song-Download-Adaab-Kharoud-1024x576.jpg" id="myAudio" alt="Temporary Pyar">
+            </a>
+            <h3>Temporary Pyar</h3>
+            <a href="/music/Temporary Pyar(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Libaas</h1>
+            <a href="/music/Kale Je Libaas Di(RJ Music).mp3" target="_blank">
+                <img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/LibaasKaka.jpg" id="myAudio" alt="Libaas">
+            </a>
+            <h3>Libaas</h3>
+            <a href="/music/Kale Je Libaas Di(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Guilty</h1>
+            <a href="/music/Guilty(RJ Music).mp3" target="_blank">
+                <img src="https://cover.loadbig.info/thumb/raumt/cover.jpg" id="myAudio" alt="Guilty">
+            </a>
+            <h3>Guilty</h3>
+            <a href="/music/Guilty(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+
+
+        <div class="container">
+            <h1>Kinne Saalan Baad</h1>
+            <a href="/music/Kinne Saalan Baad - Goldie Sohel(RJ Music).mp3" target="_blank">
+                <img src="https://www.songlyricst.com/wp-content/uploads/2021/03/kinne-saalan-baad-goldie-sohel.jpg" id="myAudio" alt="Kinne Saalan Baad">
+            </a>
+            <h3>Kinne Saalan Baad</h3>
+            <a href="/music/Kinne Saalan Baad - Goldie Sohel(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+        <!-- (RJ Music) -->
+
+
+        <div class="container">
+            <h1> Vilayati Sharaab</h1>
+            <a href="/music/Vilayati Sharaab - Darshan Raval(RJ Music).mp3" target="_blank">
+                <img src="http://a10.gaanacdn.com/images/albums/77/3998877/crop_480x480_3998877.jpg" id="myAudio" alt=" Vilayati Sharaab">
+            </a>
+            <h3> Vilayati Sharaab</h3>
+            <a href="/music/Vilayati Sharaab - Darshan Raval(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+
+
+        <div class="container">
+            <h1>Aashiq Purana</h1>
+            <a href="/music/Aashiq Purana - Kaka(RJ Music).mp3" target="_blank">
+                <img src="https://www.lyricsgoo.com/wp-content/uploads/2021/03/Aashiq-Purana-Lyrics-Kaka-ft.-Adaab-Kharoud.jpg" id="myAudio" alt="Aashiq Purana">
+            </a>
+            <h3>Aashiq Purana</h3>
+            <a href="/music/Aashiq Purana - Kaka(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+
+
+        <div class="container">
+            <h1>Birthday Pawri - Meet Bros</h1>
+            <a href="/music/Birthday Pawri - Meet Bros(RJ Music).mp3" target="_blank">
+                <img src="https://1.bp.blogspot.com/-Od0AaRZNKG4/YFijTenFUpI/AAAAAAAAKtA/jxjQLci_VtYFVOSWWrjmkyTrXEhVmRlBQCNcBGAsYHQ/s1280/Birthday%2BPawri%2BLyrics%2BMeet%2BBros.jpg" id="myAudio" alt="Birthday Pawri - Meet Bros">
+            </a>
+            <h3>Birthday Pawri - Meet Bros</h3>
+            <a href="/music/Birthday Pawri - Meet Bros(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+
+
+        <div class="container">
+            <h1>Marjaneya - Neha Kakkar</h1>
+            <a href="/music/Marjaneya - Neha Kakkar(RJ Music).mp3" target="_blank">
+                <img src="https://st1.bollywoodlife.com/wp-content/uploads/2021/03/Marjaneya_Song_Neha_Kakkar_Abhinav_Shukla_Rubina_Dilaik.jpg" id="myAudio" alt="Marjaneya - Neha Kakkar">
+            </a>
+            <h3>Marjaneya - Neha Kakkar</h3>
+            <a href="/music/Marjaneya - Neha Kakkar(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+
+
+        <div class="container">
+            <h1>Munde Mar Gaye - Guru Randhawa</h1>
+            <a href="/music/Munde Mar Gaye - Guru Randhawa(RJ Music).mp3" target="_blank">
+                <img src="/images/munde.jpg" id="myAudio" alt="Munde Mar Gaye - Guru Randhawa">
+            </a>
+            <h3>Munde Mar Gaye - Guru Randhawa</h3>
+            <a href="/music/Munde Mar Gaye - Guru Randhawa(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+        
+
+        <div class="container">
+            <h1>Nadiyon Paar</h1>
+            <a href="/music/Nadiyon Paar Lets the Music Play - Roohi(RJ Music).mp3" target="_blank">
+                <img src="http://a10.gaanacdn.com/images/song/3/35024603/crop_480x480_1614769974.jpeg" id="myAudio" alt="Nadiyon Paar">
+            </a>
+            <h3>Nadiyon Paar</h3>
+            <a href="/music/Nadiyon Paar Lets the Music Play - Roohi(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Panghat</h1>
+            <a href="/music/Panghat - Roohi(RJ Music).mp3" target="_blank">
+                <img src="/images/panghat.jpg" id="myAudio" alt="Panghat">
+            </a>
+            <h3>Panghat</h3>
+            <a href="/music/Panghat - Roohi(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Shor Machega</h1>
+            <a href="/music/Shor Machega - Yo Yo Honey Singh(RJ Music).mp3" target="_blank">
+                <img src="/images/Mumbai-Saga-2021-jpeg-300x300.jpg" id="myAudio" alt="Shor Machega">
+            </a>
+            <h3>Shor Machega</h3>
+            <a href="/music/Shor Machega - Yo Yo Honey Singh(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Keh Len de</h1>
+            <a href="/music/Keh Len de - Kaka(RJ Music).mp3" target="_blank">
+                <img src="http://a10.gaanacdn.com/images/song/53/32532053/crop_480x480_1605612580.jpg" id="myAudio" alt="Keh Len de">
+            </a>
+            <h3>Keh Len de</h3>
+            <a href="/music/Keh Len de - Kaka(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Saiyaan</h1>
+            <a href="/music/Saiyaan_192((RJ Music)).mp3" target="_blank">
+                <img src="https://pagalworld.com.se/siteuploads/thumb/sft2/947_4.jpg" id="myAudio" alt="Saiyaan">
+            </a>
+            <h3>Saiyaan</h3>
+            <a href="/music/Saiyaan_192((RJ Music)).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Lambo Car</h1>
+            <a href="/music/Lambo Car_192(RJ Music).mp3" target="_blank">
+                <img src="https://pagalworld.bar/thumbs2/27304-lambo-car.jpg" id="myAudio" alt="Lambo Car">
+            </a>
+            <h3>Lambo Car</h3>
+            <a href="/music/Lambo Car_192(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Yes Or No</h1>
+            <a href="/music/Yes Or No - Jass Manak(RJ Music).mp3" target="_blank">
+                <img src="https://pagalworld.bar/thumbs2/26991-yes-or-no.jpg" id="myAudio" alt="Yes Or No">
+            </a>
+            <h3>Yes Or No</h3>
+            <a href="/music/Yes Or No - Jass Manak(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Butterfly</h1>
+            <a href="/music/Butterfly - Jass Manak(RJ Music).mp3" target="_blank">
+                <img src="https://lyricshindimix.com/wp-content/uploads/2020/09/butterfly.jpg" id="myAudio" alt="Butterfly">
+            </a>
+            <h3>Butterfly</h3>
+            <a href="/music/Butterfly - Jass Manak(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>No Competition</h1>
+            <a href="/music/No Competition - Jass Manak(RJ Music).mp3" target="_blank">
+                <img src="https://www.pagalworld.us/_big/no-competition-2020-jass-manak-250.jpg" id="myAudio" alt="No Competition">
+            </a>
+            <h3>No Competition</h3>
+            <a href="/music/No Competition - Jass Manak(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Yaara Tere Warga</h1>
+            <a href="/music/Yaara Tere Warga - Jass Manak(RJ Music).mp3" target="_blank">
+                <img src="https://ganafm.in/siteuploads/thumb/f/sft5/2038/2038_0.jpg" id="myAudio" alt="Yaara Tere Warga">
+            </a>
+            <h3>Yaara Tere Warga</h3>
+            <a href="/music/Yaara Tere Warga - Jass Manak(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+        <div class="container">
+            <h1>Teeji Seat - Kaka</h1>
+            <a href="/music/Teeji Seat - Kaka(RJ Music).mp3" target="_blank">
+                <img src="/images/teeji.jpg" id="myAudio" alt="Teeji Seat - Kaka">
+            </a>
+            <h3>Teeji Seat - Kaka</h3>
+            <a href="/music/Teeji Seat - Kaka(RJ Music).mp3" class="dow" download>Download</a>
+        </div>
+
+
+
+
+<!-- 
+        <div class="container">
+            <h1></h1>
+            <a href="/music" target="_blank">
+                <img src="" id="myAudio" alt="">
+            </a>
+            <h3></h3>
+            <a href="/music" class="dow" download>Download</a>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ul>
+
+
+
+    <script src="myjs.js"></script>
+    <script>
+        function myFunction() {
+    // Declare variables
+    var input, filter, ul, i, txtValue, div, h1;
+
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+
+    ul = document.getElementById("myUL");
+    div = ul.getElementsByTagName("div");
+
+
+
+    for (i = 0; i < div.length; i++) {
+        h1 = div[i].getElementsByTagName("h1")[0];
+        txtValue = h1.textContent || h1.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "flex";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+
+
+var myDate = new Date();
+
+myHour = myDate.getHours();
+
+if(myHour>7 && myHour<20){
+
+    document.getElementById("light").style.display="none"
+    document.getElementById("dark").style.display="block"
+    document.getElementById("dark").style.animation="ButtonAnimation 2s 1"
+
+
+    // document.getElementById("myBody").style.animation="bodyanimation1 2s 1"
+    document.getElementById("myBody").style.backgroundColor="white"
+    document.getElementById("title").style.color = "black"
+
+    
+    var myElements = document.getElementsByTagName('h3');
+    
+    for (var i = 0; i < myElements.length; i++) {
+        myElements[i].style.color = 'black';
+    }    
+
+    var musicdow = document.getElementsByClassName('dow');
+    for(var i=0;i<musicdow.length;i++){
+        musicdow[i].style.color='black';
+        musicdow[i].style.backgroundColor='white';
+    }
+
+}
+else{
+    document.getElementById("light").style.display="block"
+    document.getElementById("light").style.color="black"
+    document.getElementById("light").style.backgroundColor="white"
+    document.getElementById("dark").style.display="none"
+    document.getElementById("light").style.animation="ButtonAnimation 2s 1"
+
+    // document.getElementById("myBody").style.animation="bodyanimation 2s 1"
+    document.getElementById("myBody").style.backgroundColor="black"
+    document.getElementById("title").style.color = "white"
+    
+    var myElements = document.getElementsByTagName('h3');
+
+    
+    for (var i = 0; i < myElements.length; i++) {
+        myElements[i].style.color = 'white';
+    }    
+
+    var musicdow = document.getElementsByClassName('dow');
+    for(var i=0;i<musicdow.length;i++){
+        musicdow[i].style.color='black';
+        musicdow[i].style.backgroundColor='white';
+    }
+}
+
+
+function light() {
+
+    document.getElementById("light").style.display="none"
+    document.getElementById("dark").style.display="block"
+    document.getElementById("dark").style.animation="ButtonAnimation 2s 1"
+
+    document.getElementById("myBody").style.animation="bodyanimation1 2s 1"
+    document.getElementById("myBody").style.backgroundColor="white"
+    document.getElementById("title").style.color = "black"
+    
+    var myElements = document.getElementsByTagName('h3');
+
+    
+    for (var i = 0; i < myElements.length; i++) {
+        myElements[i].style.color = 'black';
+    }    
+
+    var musicdow = document.getElementsByClassName('dow');
+    for(var i=0;i<musicdow.length;i++){
+        musicdow[i].style.color='black';
+        musicdow[i].style.backgroundColor='white';
+    }
+}
+
+function dark() {
+
+    document.getElementById("light").style.display="block"
+    document.getElementById("light").style.color="black"
+    document.getElementById("light").style.backgroundColor="white"
+    document.getElementById("dark").style.display="none"
+    document.getElementById("light").style.animation="ButtonAnimation 2s 1"
+
+    document.getElementById("myBody").style.animation="bodyanimation 2s 1"
+    document.getElementById("myBody").style.backgroundColor="black"
+    document.getElementById("title").style.color = "white"
+    
+    var myElements = document.getElementsByTagName('h3');
+
+    
+    for (var i = 0; i < myElements.length; i++) {
+        myElements[i].style.color = 'white';
+    }
+
+
+    var musicdow = document.getElementsByClassName('dow');
+    for(var i=0;i<musicdow.length;i++){
+        musicdow[i].style.color='black';
+        musicdow[i].style.backgroundColor='white';
+    }
+}
+
+
+
+    </script>
+</body>
+
+</html>
